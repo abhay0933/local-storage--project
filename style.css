@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210126/pngtree-romantic-pink-purple-gradient-color-block-background-image_541926.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Agbalumo;
+}
+
+.container{
+    /* border: 2px solid red; */
+    padding: 50px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90vh;
+    box-shadow: 2px 1px 10px 10px white ;
+}
+.container h1{
+    margin-bottom: 30px;
+    color: cornsilk;
+}
+
+#text{
+    padding: 10px;
+    background: transparent;
+    color: antiquewhite;
+    font-size: 1.2rem;
+    border: 2px solid antiquewhite;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    border: 2px solid antiquewhite;
+    background: transparent;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+
+}
